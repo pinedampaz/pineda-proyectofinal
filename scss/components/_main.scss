@@ -1,0 +1,227 @@
+@import"../base/variables";
+
+// INDEX
+#main-index {
+    width: 100vw;
+    height: auto;
+    display: grid;
+    gap: 5px;
+    grid-template-columns: (3, 1fr);
+    grid-template-rows: repeat(4, auto);
+    grid-template-areas:
+        "carousel carousel introtext"
+        "indexcards indexcards indexcards"
+        "video video contact"
+        "mapa mapa mapa"
+}
+
+#carouselExampleControls {
+    grid-area: carousel;
+    background: red;
+    width: 100%;
+    height: auto;
+}
+
+.introtext {
+    display: flex;
+    flex-direction: column;
+    padding: auto;
+    grid-area: introtext;
+    background: #D0BFB8;
+    align-items: center;
+    color: #475A51;
+    text-align: center;
+
+    .button {
+        background-color: $accent-color;
+        margin: 5px;
+        padding: 5px;
+        text-align: center;
+        width: 110px;
+        border-radius: 20px;
+    }
+}
+
+.indexcards {
+    padding: 20px;
+    grid-area: indexcards;
+    background: #475A51;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    color: #F4F3EE;
+
+    .card {
+        height: auto;
+        color: #475A51;
+        margin-top: 20px;
+
+        & :hover {
+            transform: scale(1.03);
+        }
+
+        .card-body {
+            display: flex;
+            flex-direction: column;
+            text-justify: auto;
+
+            .btn {
+                background-color: $accent-color;
+                & :hover {
+                    background-color: #475A51;
+                    border: #475A51;
+                }
+            }
+        }
+    }
+}
+
+.video-section {
+    grid-area: video;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+
+    iframe {
+        width: 100%;
+        height: 500px;
+    }
+}
+
+.indexcontact {
+    color: #475A51;
+    display: flex;
+    flex-direction: column;
+    grid-area: contact;
+    background-image: url(../Imagenes/work-50358954-all-over-print-tote-bag.jpg);
+    background-repeat: no-repeat;
+    justify-content: center;
+
+    p {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    .menu-items {
+        background-color: $accent-color;
+        padding: 5px;
+        text-align: center;
+        width: 110px;
+        border-radius: 20px;
+        text-decoration-color: #FCF9F4;
+        margin: auto;
+
+        & :hover {
+            background-color: #475A51;
+            color: $accent-color;
+        }
+
+        a {
+            color: #FCF9F4;
+
+            & :hover {
+                color: $accent-color;
+            }
+        }
+
+    }
+}
+
+.areamapa {
+    height: 500px;
+    grid-area: mapa;
+    background-color: $accent-color;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    .mapa {
+        width: 90%;
+        height: auto;
+        padding: 10px;
+    }
+    .letsmeet {
+        display: flex;
+        list-style: none;
+        flex-direction: column;
+        align-content: center;
+        color: #FCF9F4;
+        padding: 150px;
+        ul {
+            list-style: none;
+        }
+        h3 {
+            text-align: center;
+        }
+    }
+}
+
+// Aboutme
+#aboutme {
+    display: flex;
+    flex-direction: row;
+}
+
+// Contact
+
+#main-contact {
+    width: 100vw;
+    height: auto;
+    display: grid;
+    gap: 5px;
+    grid-template-columns: (2, 1fr);
+    grid-template-rows: repeat(2, auto);
+    grid-template-areas:
+        "contactform contact"
+        "mapa mapa"
+}
+
+.contactform {
+    grid-area: contactform;
+    background-color: #475A51;
+    color: #F4F3EE;
+    padding: 30px;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+}
+
+.bloqueformulario {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    padding: 15px;
+    textarea {
+        border-radius: 20px;
+    }
+}
+
+
+.formulariocontrol {
+    background-color: #F4F3EE;
+    border-radius: 20px;
+    width: 100%;
+    padding: 5px;
+}
+
+.botonera {
+    display: flex;
+    flex-direction: row;
+    padding-right: 150px;
+    justify-content: flex-end;
+}
+
+.boton {
+    background-color: $accent-color;
+    text-align: center;
+    margin-left: 15px;
+    width: 110px;
+    border-radius: 20px;
+    border: #F4F3EE;
+    color: #F4F3EE;
+}
+
+

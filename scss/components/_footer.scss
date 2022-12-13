@@ -1,0 +1,51 @@
+@import"../base/variables";
+
+#flex-footer {
+    background-color: #D0BFB8;
+    width: 100vw;
+    height: 200px;
+    padding: 10px;
+    display: flex;
+    flex-flow: wrap;
+    justify-items: center;
+    .subscribe-text {
+        width: 100vw;
+        margin: auto;
+        text-align: center;
+        color: #FCF9F4;
+    }
+    .form {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin: auto;
+        .form-input {
+            border-radius: 20px;
+            background-color: #D0BFB8;
+            border-color: #FE6340;
+            color: #FCF9F4;
+        }
+        .form-input-confirm {
+            border-radius: 20px;
+            background-color: #FE6340;
+            border-color: #FE6340;
+            color: #FCF9F4;
+            & :hover{
+                background-color: #475A51;
+                color: #FE6340;
+                }
+        }
+    }
+    .social-media {
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        margin-top: 15px;
+        .icons {
+            margin-left: 25px;
+            color: #FCF9F4;
+        }
+    }
+
+}
+
