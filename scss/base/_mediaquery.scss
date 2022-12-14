@@ -5,28 +5,34 @@
         height: auto;
         width: 100vw;
         justify-content: center;
+        align-content: center;
+        // position: absolute;
     }
 
-    #flex-header .logo{
-   display: none;
-    }
+//     #flex-header .logo{
+//    display: none;
+//     }
 
 
     
     #flex-header .flex-menu {
         display: flex;
-        flex-direction: column;
+        // flex-direction: column;
 height: auto;
 align-items: center;
+justify-content: center;
+width: 100vw;
+flex-wrap: wrap;
     }
 
     #flex-header .flex-menu .menu-items a{
+        display: row;
         margin-top: 5px;
- 
-    }
+        width: 100vw;
+     }
 
     #flex-header .flex-menu .menu-items-logo{
-        display: contents;
+        display: none;
     }
 
 .home{
@@ -83,4 +89,14 @@ align-items: center;
     margin-right: auto;
     margin-top: 15px;
 }
+}
+
+#main-contact {
+   display: flex;
+   flex-direction: column;
+}
+
+.contactform {
+    width: 100vw;
+    justify-content: center;
 }
