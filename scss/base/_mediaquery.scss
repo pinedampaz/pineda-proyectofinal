@@ -89,14 +89,15 @@ flex-wrap: wrap;
     margin-right: auto;
     margin-top: 15px;
 }
-}
 
 #main-contact {
-   display: flex;
-   flex-direction: column;
+    display: flex;
+    flex-direction: column;
+ }
+ 
+ .contactform {
+     width: 100vw;
+     justify-content: center;
+ }
 }
 
-.contactform {
-    width: 100vw;
-    justify-content: center;
-}
