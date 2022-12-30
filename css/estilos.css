@@ -57,14 +57,17 @@ a {
   gap: 5px;
   grid-template-columns: 3, 1fr;
   grid-template-rows: repeat(4, auto);
-  grid-template-areas: "carousel carousel introtext" "indexcards indexcards indexcards" "video video contact" "mapa mapa mapa"; }
+  grid-template-areas: "carousel carousel introtext"
+ "indexcards indexcards indexcards"
+ "video video contact"
+ "mapa mapa mapa"; }
 
 #carouselExampleControls {
   grid-area: carousel;
   background: #FE6340;
   width: 100%;
   height: auto; }
-  #carouselExampleControls h2 {
+  .h2 {
     color: #FCF9F4;
     padding-left: 15px; }
 
@@ -182,7 +185,8 @@ a {
   gap: 5px;
   grid-template-columns: 2, 1fr;
   grid-template-rows: repeat(2, auto);
-  grid-template-areas: "contactform contact" "mapa mapa"; }
+  grid-template-areas: "contactform contact"
+ "mapa mapa"; }
 
 .contactform {
   grid-area: contactform;
