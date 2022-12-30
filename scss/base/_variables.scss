@@ -11,3 +11,11 @@ $bg-color: #D0BFB8,
     justify-items: center;
 }
 
+@mixin botones {
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    width: 110px;
+    border-radius: 20px;
+
+}
