@@ -1,13 +1,12 @@
 @import"../base/variables";
 
 #flex-header {
+    @extend %flex;
     background-color: nth($bg-color, 2);
     width: 100%;
     height: 80px;
     padding: 10px;
-    display: flex;
     flex-flow: row nowrap;
-    align-items: center;
     position: sticky;
     top: 0;
     z-index: 1;

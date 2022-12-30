@@ -27,12 +27,11 @@
 }
 
 .introtext {
-    display: flex;
+    @extend %flex;
     flex-direction: column;
     padding: auto;
     grid-area: introtext;
     background: nth($bg-color, 1);
-    align-items: center;
     color: $accent-color-2;
     text-align: center;
 
@@ -47,13 +46,12 @@
 }
 
 .indexcards {
+    @extend %flex;
     padding: 20px;
     grid-area: indexcards;
     background: $accent-color-2;
-    display: flex;
     flex-direction: row;
     justify-content: space-around;
-    align-items: center;
     color: #F4F3EE;
 
     .card {
@@ -95,13 +93,12 @@
 }
 
 .indexcontact {
+    @extend %flex;
     color: $accent-color-2;
-    display: flex;
     flex-direction: column;
     grid-area: contact;
     background-image: url(../Imagenes/work-50358954-all-over-print-tote-bag.jpg);
     background-repeat: no-repeat;
-    justify-content: center;
     padding: 10px;
 
     p {
@@ -135,23 +132,21 @@
 }
 
 .areamapa {
+    @extend %flex;
     height: 500px;
     grid-area: mapa;
     background-color: $accent-color;
-    display: flex;
     flex-direction: row;
     justify-content: space-around;
-    align-content: center;
     .mapa {
         width: 90%;
         height: auto;
         padding: 10px;
     }
     .letsmeet {
-        display: flex;
+        @extend %flex;
         list-style: none;
         flex-direction: column;
-        align-content: center;
         color: nth($bg-color, 2);
         padding: 150px;
         ul {
@@ -184,14 +179,13 @@
 }
 
 .contactform {
+    @extend %flex;
     grid-area: contactform;
     background-color: $accent-color-2;
     color: #F4F3EE;
     padding: 30px;
     width: 50vw;
-    display: flex;
     flex-direction: column;
-    justify-items: center;
 }
 
 .bloqueformulario {

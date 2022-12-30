@@ -4,3 +4,11 @@ $accent-color-2:#475A51;
 $bg-color:
 #D0BFB8,
 #FCF9F4;
+
+%flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+}
+
