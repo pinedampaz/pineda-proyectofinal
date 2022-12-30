@@ -7,14 +7,24 @@ a {
   text-decoration-color: none;
   list-style: none; }
 
+#flex-header, #main-index .introtext, .indexcards, .indexcontact, .areamapa, .areamapa .letsmeet, .contactform, #flex-footer, #flex-footer .form, #flex-footer .social-media {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-items: center; }
+
+#flex-header, #main-index .introtext, .indexcards, .indexcontact, .areamapa, .areamapa .letsmeet, .contactform, #flex-footer, #flex-footer .form, #flex-footer .social-media {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-items: center; }
+
 #flex-header {
   background-color: #FCF9F4;
   width: 100%;
   height: 80px;
   padding: 10px;
-  display: flex;
   flex-flow: row nowrap;
-  align-items: center;
   position: sticky;
   top: 0;
   z-index: 1; }
@@ -50,6 +60,12 @@ a {
     width: auto;
     margin-left: 35px; }
 
+#flex-header, #main-index .introtext, .indexcards, .indexcontact, .areamapa, .areamapa .letsmeet, .contactform, #flex-footer, #flex-footer .form, #flex-footer .social-media {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-items: center; }
+
 #main-index {
   width: 100%;
   height: auto;
@@ -68,31 +84,38 @@ a {
     color: #FCF9F4;
     padding-left: 15px; }
 
-.introtext {
-  display: flex;
+#main-index .introtext {
   flex-direction: column;
   padding: auto;
   grid-area: introtext;
   background: #D0BFB8;
-  align-items: center;
   color: #475A51;
   text-align: center; }
-  .introtext .button {
+  #main-index .introtext .button {
     background-color: #FE6340;
     margin: 5px;
     padding: 5px;
     text-align: center;
     width: 110px;
-    border-radius: 20px; }
+    border-radius: 20px;
+    border-color: #FE6340;
+    text-decoration-color: #FCF9F4; }
+    #main-index .introtext .button a {
+      color: #FCF9F4; }
+      #main-index .introtext .button a:hover {
+        color: #FE6340; }
+    #main-index .introtext .button:hover {
+      background-color: #475A51;
+      color: #FE6340; }
+    #main-index .introtext .button:active {
+      transform: translateY(4px); }
 
 .indexcards {
   padding: 20px;
   grid-area: indexcards;
   background: #475A51;
-  display: flex;
   flex-direction: row;
   justify-content: space-around;
-  align-items: center;
   color: #F4F3EE; }
   .indexcards .card {
     height: auto;
@@ -122,12 +145,10 @@ a {
 
 .indexcontact {
   color: #475A51;
-  display: flex;
   flex-direction: column;
   grid-area: contact;
   background-image: url(../Imagenes/work-50358954-all-over-print-tote-bag.jpg);
   background-repeat: no-repeat;
-  justify-content: center;
   padding: 10px; }
   .indexcontact p {
     padding-left: 25px;
@@ -152,19 +173,15 @@ a {
   height: 500px;
   grid-area: mapa;
   background-color: #FE6340;
-  display: flex;
   flex-direction: row;
-  justify-content: space-around;
-  align-content: center; }
+  justify-content: space-around; }
   .areamapa .mapa {
     width: 90%;
     height: auto;
     padding: 10px; }
   .areamapa .letsmeet {
-    display: flex;
     list-style: none;
     flex-direction: column;
-    align-content: center;
     color: #FCF9F4;
     padding: 150px; }
     .areamapa .letsmeet ul {
@@ -191,9 +208,7 @@ a {
   color: #F4F3EE;
   padding: 30px;
   width: 50vw;
-  display: flex;
-  flex-direction: column;
-  justify-items: center; }
+  flex-direction: column; }
 
 .bloqueformulario {
   display: flex;
@@ -224,23 +239,25 @@ a {
   border: #F4F3EE;
   color: #F4F3EE; }
 
+#flex-header, #main-index .introtext, .indexcards, .indexcontact, .areamapa, .areamapa .letsmeet, .contactform, #flex-footer, #flex-footer .form, #flex-footer .social-media {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-items: center; }
+
 #flex-footer {
   background-color: #D0BFB8;
   width: 100%;
   height: 200px;
   padding: 10px;
-  display: flex;
-  flex-flow: wrap;
-  justify-items: center; }
+  flex-flow: wrap; }
   #flex-footer .subscribe-text {
     width: 100vw;
     margin: auto;
     text-align: center;
     color: #FCF9F4; }
   #flex-footer .form {
-    display: flex;
     flex-direction: row;
-    justify-content: center;
     margin: auto; }
     #flex-footer .form .form-input {
       border-radius: 20px;
@@ -257,8 +274,6 @@ a {
         color: #FE6340; }
   #flex-footer .social-media {
     width: 100vw;
-    display: flex;
-    justify-content: center;
     margin-top: 15px; }
     #flex-footer .social-media .icons {
       margin-left: 25px;

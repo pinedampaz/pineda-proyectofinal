@@ -20,14 +20,13 @@
     background: $accent-color;
     width: 100%;
     height: auto;
-
     h2 {
         color: nth($bg-color, 2);
         padding-left: 15px;
     }
-}
+    }
 
-.introtext {
+#main-index .introtext {
     @extend %flex;
     flex-direction: column;
     padding: auto;
@@ -36,8 +35,22 @@
     color: $accent-color-2;
     text-align: center;
 
-    #button {
-        @include button (background-color, margin, padding, text-align, width, border-radius, text-decoration-color);
+    .button {
+        background-color: $accent-color;
+        margin: 5px;
+        padding: 5px;
+        text-align: center;
+        width: 110px;
+        border-radius: 20px;
+        border-color: $accent-color;
+        text-decoration-color: nth($bg-color, 2);
+        a {
+            color: nth($bg-color, 2);
+
+            &:hover {
+                color: $accent-color;
+            }
+        }
 
         &:hover {
             background-color: $accent-color-2;
@@ -46,14 +59,6 @@
 
         &:active {
             transform: translateY(4px);
-        }
-
-        a {
-            color: #FCF9F4;
-
-            &:hover {
-                color: #FE6340;
-            }
         }
     }
 }
@@ -83,7 +88,6 @@
 
             .btn {
                 background-color: $accent-color;
-
                 & :hover {
                     background-color: $accent-color-2;
                     border: $accent-color-2;
@@ -152,24 +156,20 @@
     background-color: $accent-color;
     flex-direction: row;
     justify-content: space-around;
-
     .mapa {
         width: 90%;
         height: auto;
         padding: 10px;
     }
-
     .letsmeet {
         @extend %flex;
         list-style: none;
         flex-direction: column;
         color: nth($bg-color, 2);
         padding: 150px;
-
         ul {
             list-style: none;
         }
-
         h3 {
             text-align: center;
         }
@@ -211,7 +211,6 @@
     flex-direction: column;
     width: 80%;
     padding: 15px;
-
     textarea {
         border-radius: 20px;
     }
@@ -241,3 +240,5 @@
     border: #F4F3EE;
     color: #F4F3EE;
 }
+
+
