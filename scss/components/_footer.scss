@@ -22,17 +22,17 @@
         .form-input {
             border-radius: 20px;
             background-color: #D0BFB8;
-            border-color: #FE6340;
+            border-color: $accent-color;
             color: #FCF9F4;
         }
         .form-input-confirm {
             border-radius: 20px;
-            background-color: #FE6340;
-            border-color: #FE6340;
+            background-color: $accent-color;
+            border-color: $accent-color;
             color: #FCF9F4;
             & :hover{
                 background-color: #475A51;
-                color: #FE6340;
+                color: $accent-color;
                 }
         }
     }

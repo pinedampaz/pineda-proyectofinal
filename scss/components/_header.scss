@@ -22,7 +22,7 @@
         margin-right: 35px;
 
         .menu-items {
-            background-color: #FE6340;
+            background-color: $accent-color;
             margin: 5px;
             padding: 5px;
             text-align: center;
@@ -34,13 +34,13 @@
                 color: #FCF9F4;
 
                 &:hover {
-                    color: #FE6340;
+                    color: $accent-color;
                 }
             }
 
             &:hover {
                 background-color: #475A51;
-                color: #FE6340;
+                color: $accent-color;
             }
 
             &:active {
