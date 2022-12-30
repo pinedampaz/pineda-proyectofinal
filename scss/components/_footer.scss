@@ -31,7 +31,7 @@
             border-color: $accent-color;
             color: #FCF9F4;
             & :hover{
-                background-color: #475A51;
+                background-color: $accent-color-2;
                 color: $accent-color;
                 }
         }

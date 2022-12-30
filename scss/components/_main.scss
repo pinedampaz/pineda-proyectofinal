@@ -29,7 +29,7 @@
     grid-area: introtext;
     background: #D0BFB8;
     align-items: center;
-    color: #475A51;
+    color: $accent-color-2;
     text-align: center;
 
     .button {
@@ -45,7 +45,7 @@
 .indexcards {
     padding: 20px;
     grid-area: indexcards;
-    background: #475A51;
+    background: $accent-color-2;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -54,7 +54,7 @@
 
     .card {
         height: auto;
-        color: #475A51;
+        color: $accent-color-2;
         margin-top: 20px;
 
         & :hover {
@@ -69,8 +69,8 @@
             .btn {
                 background-color: $accent-color;
                 & :hover {
-                    background-color: #475A51;
-                    border: #475A51;
+                    background-color: $accent-color-2;
+                    border: $accent-color-2;
                 }
             }
         }
@@ -91,7 +91,7 @@
 }
 
 .indexcontact {
-    color: #475A51;
+    color: $accent-color-2;
     display: flex;
     flex-direction: column;
     grid-area: contact;
@@ -114,7 +114,7 @@
         margin: auto;
 
         & :hover {
-            background-color: #475A51;
+            background-color: $accent-color-2;
             color: $accent-color;
         }
 
@@ -180,7 +180,7 @@
 
 .contactform {
     grid-area: contactform;
-    background-color: #475A51;
+    background-color: $accent-color-2;
     color: #F4F3EE;
     padding: 30px;
     width: 50vw;
