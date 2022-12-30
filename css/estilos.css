@@ -66,10 +66,12 @@ a {
   grid-area: carousel;
   background: #FE6340;
   width: 100%;
-  height: auto; }
-  .h2 {
+  height: auto; 
+  h2 {
     color: #FCF9F4;
     padding-left: 15px; }
+  }
+
 
 .introtext {
   display: flex;
