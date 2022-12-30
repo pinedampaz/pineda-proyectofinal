@@ -1,7 +1,7 @@
 @import"../base/variables";
 
 #flex-header {
-    background-color: $bg-color-2;
+    background-color: nth($bg-color, 2);
     width: 100%;
     height: 80px;
     padding: 10px;
@@ -28,10 +28,10 @@
             text-align: center;
             width: 110px;
             border-radius: 20px;
-            text-decoration-color: $bg-color-2;
+            text-decoration-color: nth($bg-color, 2);
 
             a {
-                color: $bg-color-2;
+                color: nth($bg-color, 2);
 
                 &:hover {
                     color: $accent-color;

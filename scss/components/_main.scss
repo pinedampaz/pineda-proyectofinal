@@ -31,7 +31,7 @@
     flex-direction: column;
     padding: auto;
     grid-area: introtext;
-    background: $bg-color;
+    background: nth($bg-color, 1);
     align-items: center;
     color: $accent-color-2;
     text-align: center;
@@ -115,7 +115,7 @@
         text-align: center;
         width: 110px;
         border-radius: 20px;
-        text-decoration-color: $bg-color-2;
+        text-decoration-color: nth($bg-color, 2);
         margin: auto;
 
         & :hover {
@@ -124,7 +124,7 @@
         }
 
         a {
-            color: $bg-color-2;
+            color: nth($bg-color, 2);
 
             & :hover {
                 color: $accent-color;
@@ -152,7 +152,7 @@
         list-style: none;
         flex-direction: column;
         align-content: center;
-        color: $bg-color-2;
+        color: nth($bg-color, 2);
         padding: 150px;
         ul {
             list-style: none;
