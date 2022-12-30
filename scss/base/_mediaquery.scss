@@ -6,36 +6,31 @@
         width: 100vw;
         justify-content: center;
         align-content: center;
-        // position: absolute;
     }
 
-//     #flex-header .logo{
-//    display: none;
-//     }
 
 
-    
+
     #flex-header .flex-menu {
         display: flex;
-        // flex-direction: column;
-height: auto;
-align-items: center;
-justify-content: center;
-width: 100vw;
-flex-wrap: wrap;
+        height: auto;
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+        flex-wrap: wrap;
     }
 
-    #flex-header .flex-menu .menu-items a{
+    #flex-header .flex-menu .menu-items a {
         display: row;
         margin-top: 5px;
         width: 100vw;
-     }
+    }
 
-    #flex-header .flex-menu .menu-items-logo{
+    #flex-header .flex-menu .menu-items-logo {
         display: none;
     }
 
-.home{
+    .home {
         display: none;
     }
 
@@ -60,44 +55,43 @@ flex-wrap: wrap;
         flex-direction: column;
     }
 
-.indexcards .cards{
-    padding: 20px;
-}
+    .indexcards .cards {
+        padding: 20px;
+    }
 
-#flex-footer{
-    width: 100vw;
-    height: auto;
-    justify-items: center;
-}
+    #flex-footer {
+        width: 100vw;
+        height: auto;
+        justify-items: center;
+    }
 
-#flex-footer .form{
-    flex-direction: column;
-    padding: 5px;
-    justify-content: center;
-}
+    #flex-footer .form {
+        flex-direction: column;
+        padding: 5px;
+        justify-content: center;
+    }
 
-#flex-footer .form .form-input{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 15px;
-}
+    #flex-footer .form .form-input {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 15px;
+    }
 
-#flex-footer .form .form-input-confirm{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 15px;
-}
+    #flex-footer .form .form-input-confirm {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 15px;
+    }
 
-#main-contact {
-    display: flex;
-    flex-direction: column;
- }
- 
- .contactform {
-     width: 100vw;
-     justify-content: center;
- }
-}
+    #main-contact {
+        display: flex;
+        flex-direction: column;
+    }
 
+    .contactform {
+        width: 100vw;
+        justify-content: center;
+    }
+}
