@@ -24,10 +24,7 @@
             color: nth($bg-color, 2);
         }
         .form-input-confirm {
-            border-radius: 20px;
-            background-color: $accent-color;
-            border-color: $accent-color;
-            color: nth($bg-color, 2);
+            @include button (background-color, margin, padding, text-align, width, border-radius, text-decoration-color,a (color, &:hover));
             & :hover{
                 background-color: $accent-color-2;
                 color: $accent-color;

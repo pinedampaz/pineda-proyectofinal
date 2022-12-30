@@ -1,14 +1,25 @@
 $accent-color: #FE6340;
-$accent-color-2:#475A51;
+$accent-color-2: #475A51;
 
-$bg-color:
-#D0BFB8,
-#FCF9F4;
+$bg-color: #D0BFB8,
+    #FCF9F4;
 
-%flex{
+%flex {
     display: flex;
     justify-content: center;
     align-items: center;
     justify-items: center;
+}
+
+
+@mixin button {
+    background-color: #FE6340;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    width: 110px;
+    border-radius: 20px;
+    text-decoration-color: #FCF9F4;
+
 }
 
