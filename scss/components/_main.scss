@@ -21,7 +21,7 @@
     width: 100%;
     height: auto;
     h2 {
-        color: $bg-color-2;
+        color: nth($bg-color, 2);
         padding-left: 15px;
     }
 }
