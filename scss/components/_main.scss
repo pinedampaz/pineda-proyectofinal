@@ -20,6 +20,10 @@
     background: $accent-color;
     width: 100%;
     height: auto;
+    h2 {
+        color: $bg-color-2;
+        padding-left: 15px;
+    }
 }
 
 .introtext {

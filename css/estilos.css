@@ -64,6 +64,9 @@ a {
   background: #FE6340;
   width: 100%;
   height: auto; }
+  #carouselExampleControls h2 {
+    color: #FCF9F4;
+    padding-left: 15px; }
 
 .introtext {
   display: flex;
